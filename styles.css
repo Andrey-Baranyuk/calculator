@@ -33,7 +33,7 @@ body {
   background-color: rgba(227, 238, 109, 0.75);
 }
 
-.calculator-grid > button :hover {
+.calculator-grid > button:hover {
   background-color: rgba(227, 238, 109, 0.9);
 }
 
@@ -43,7 +43,8 @@ body {
 
 .output {
   grid-column: 1 / -1;
-  background-color: black;
+  border: 1px solid white;
+  background-color: rgba(0, 0, 0, 0);
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
